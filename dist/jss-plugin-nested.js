@@ -69,7 +69,7 @@ const onProcessStyle = (style, rule, sheet) => {
         const isNested = !isNestedConditional && nestedSelector.includes('&');
         if (!isNestedConditional && !isNested)
             continue;
-        const parentSelector = styleRule.selector;
+        const parentSelector = styleRule.selector ?? '';
         optionsCache = getOptions(styleRule, container, optionsCache);
         if (isNestedConditional) {
             // place conditional right after the parent rule to ensure right ordering:

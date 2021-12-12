@@ -113,7 +113,7 @@ const onProcessStyle = (style: Style, rule: Rule, sheet?: StyleSheet): Style => 
         
         
         
-        const parentSelector : string = (styleRule as any).selector;
+        const parentSelector : string = (styleRule as any).selector ?? '';
         
         
         
