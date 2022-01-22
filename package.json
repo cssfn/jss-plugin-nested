@@ -1,6 +1,6 @@
 {
   "name": "@cssfn/jss-plugin-nested",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A plugin for JSS.",
   "type": "module",
   "main": "dist/jss-plugin-nested.js",
@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/cssfn/jss-plugin-nested#readme",
   "dependencies": {
-    "@cssfn/css-selector": "^1.0.2",
-    "jss": "^10.8.2"
+    "@cssfn/css-selector": "^1.0.4",
+    "@cssfn/types": "^1.0.4",
+    "jss": "^10.9.0"
   }
 }
